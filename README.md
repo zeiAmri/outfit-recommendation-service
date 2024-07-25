@@ -19,7 +19,13 @@ The system consists of the following components:
 2. **Model Classes**: Represents data entities like `InventoryItem`, `Purchase`, `User`, and `RecommendationRequest`.
 3. **Endpoints**: API endpoints to receive user inputs and return recommendations.
 
-   
+**Architecture Diagram:**
+
+   ![Architecture Diagram](images/Architecture-diagram.png)
+
+**ERD:**
+
+![Architecture Diagram](images/ERD-diagram.png)
 
 ## Getting Started
 
