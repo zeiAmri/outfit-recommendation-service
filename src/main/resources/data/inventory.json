@@ -1,0 +1,14 @@
+[
+    {
+        "itemId": "1",
+        "eventType": "WEDDING",
+        "price": 120.0,
+        "quantity": 15
+    },
+    {
+        "itemId": "2",
+        "eventType": "CHRISTMAS",
+        "price": 80.0,
+        "quantity": 5
+    }
+]
