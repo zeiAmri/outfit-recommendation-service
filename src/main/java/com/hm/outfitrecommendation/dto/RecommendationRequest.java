@@ -4,7 +4,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.hm.outfitrecommendation.model.EventType;
 
 import lombok.Data;
-import java.util.UUID;
 
 @Data
 public class RecommendationRequest {

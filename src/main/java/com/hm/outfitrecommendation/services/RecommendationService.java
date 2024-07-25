@@ -1,23 +1,12 @@
 package com.hm.outfitrecommendation.services;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hm.outfitrecommendation.model.*;
-import com.hm.outfitrecommendation.repository.InventoryRepository;
-
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
-import java.util.UUID;
 import java.util.stream.Collectors;
 import java.util.Comparator;
 
@@ -41,7 +30,7 @@ public class RecommendationService {
                 return getGeneralRecommendations(eventType, budget);
             }
         } else {
-            return Collections.EMPTY_LIST;
+            return Collections.emptyList();
         }
     }
 

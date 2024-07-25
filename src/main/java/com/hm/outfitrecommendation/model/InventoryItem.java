@@ -13,16 +13,4 @@ public class InventoryItem {
     private CategoryType category;
     private double price;
     private int quantity;
-
-    @Override
-    public String toString() {
-        return "InventoryItem{" +
-                "itemId='" + itemId + '\'' +
-                ", name='" + name + '\'' +
-                ", eventType=" + eventType +
-                ", category=" + category +
-                ", price=" + price +
-                ", quantity=" + quantity +
-                '}';
-    }
 }
